@@ -1,0 +1,24 @@
+{
+  "name": "epson-projector",
+  "version": "0.0.1",
+  "description": "Module for controlling Epson projectors via RS232",
+  "main": "./lib/apc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phillipsnick/epson-projector.git"
+  },
+  "keywords": [
+    "epson",
+    "projector",
+    "rs232",
+    "remote"
+  ],
+  "author": "Nick Phillips <nick@linkstudios.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "~1.4.5"
+  }
+}
